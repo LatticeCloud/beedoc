@@ -104,7 +104,7 @@ Windows 平台下输入：
 	set BEE=%GOPATH%\bin\bee
 	%BEE% new %APP%
 	cd %APP%
-	echo %BEE% run %APP%.exe > run.bat
+	echo %BEE% run > run.bat
 	echo pause >> run.bat
 	start run.bat
 	pause
